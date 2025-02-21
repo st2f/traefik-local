@@ -9,5 +9,6 @@ mkcert -cert-file certs/local-cert.pem \
 cd certs
 mkcert -install
 
+cd ..
 docker compose up -d 
 ```
